@@ -1,0 +1,9 @@
+#historia{
+    width: 700px;
+    word-break: break-word;
+}
+#image{
+    border-radius: 50%;
+    position: fixed;
+    left: 700px;
+}
