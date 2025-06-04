@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isaac Newton y sus 3 Leyes</title>
+  <!-- Enlace a la hoja de estilos principal -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>las 3 leyes de newton</h1>
-    <div>
-        <h2>un poco de Isaac Newton</h2>
-        <img id="image" src="image/isaac newton.webp" alt="isaac newton">
-        <p id="historia"> 
-            Isaac Newton fue un físico, matemático, astrónomo, alquimista y teólogo inglés, 
-            considerado una figura clave en la Revolución Científica y la Ilustración. Sus 
-            principales aportes incluyen las tres leyes de movimiento, la ley de gravitación 
-            universal y el desarrollo del cálculo.
-            
-            
-        </p>
-    </div>
+  <!-- Contenedor principal de la página -->
+  <div class="container">
+    <h1>Isaac Newton</h1>
+    <p>Descubre quién fue Isaac Newton y conoce sus famosas leyes del movimiento.</p>
 
-    <button class="Bleyes" id="primeraLey" onclick="">primera ley de newton</button>
-    <button class="Bleyes" id="segundaLey" onclick="">segunda ley de newton</button>
-    <button class="Bleyes" id="terceraLey" onclick="">tercera ley de newton</button>
+    <!-- Botones para mostrar información sobre Newton y sus leyes -->
+    <button onclick="mostrarContenido('biografia')">Biografía</button>
+    <button onclick="mostrarContenido('ley1')">Ley 1: Inercia</button>
+    <button onclick="mostrarContenido('ley2')">Ley 2: Fuerza = masa x aceleración</button>
+    <button onclick="mostrarContenido('ley3')">Ley 3: Acción y reacción</button>
+
+    <!-- Contenedor dinámico donde se muestra la información seleccionada -->
+    <div id="ley-info" class="ley-info">
+      <!-- Aquí se insertará el contenido dinámicamente desde script.js -->
+    </div>
+  </div>
+
+  <!-- Inclusión del script de funcionalidad -->
+  <script src="script.js"></script>
 </body>
 </html>
