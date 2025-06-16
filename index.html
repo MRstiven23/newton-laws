@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Isaac Newton y sus 3 Leyes</title>
-  <!-- Enlace a la hoja de estilos principal -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <!-- Contenedor principal de la página -->
-  <div class="container">
-    <h1>Isaac Newton</h1>
-    <p>Descubre quién fue Isaac Newton y conoce sus famosas leyes del movimiento.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Isaac Newton y sus 3 Leyes</title>
+    <!-- Enlace a la hoja de estilos principal -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Contenedor principal de la página -->
+    <div class="container">
+      <h1>Isaac Newton</h1>
+      <p>
+        Descubre quién fue Isaac Newton y conoce sus famosas leyes del
+        movimiento.
+      </p>
 
-    <!-- Botones para mostrar información sobre Newton y sus leyes -->
-    <button onclick="mostrarContenido('biografia')">Biografía</button>
-    <button onclick="mostrarContenido('ley1')">Ley 1: Inercia</button>
-    <button onclick="mostrarContenido('ley2')">Ley 2: Fuerza y Aceleracion</button>
-    <button onclick="mostrarContenido('ley3')">Ley 3: Acción y reacción</button>
+      <!-- Botones para mostrar información sobre Newton y sus leyes -->
+      <button onclick="mostrarContenido('biografia')">Biografía</button>
+      <button onclick="mostrarContenido('ley1')">Ley 1: Inercia</button>
+      <button onclick="mostrarContenido('ley2')">Ley 2: Fuerza y Aceleracion</button>
+      <button onclick="mostrarContenido('ley3')">Ley 3: Acción y reacción</button>
 
-    <!-- Contenedor dinámico donde se muestra la información seleccionada -->
-    <div id="ley-info" class="ley-info">
-      <!-- Aquí se insertará el contenido dinámicamente desde script.js -->
+      <!-- Contenedor dinámico donde se muestra la información seleccionada -->
+      <div id="ley-info" class="ley-info">
+        <!-- Aquí se insertará el contenido dinámicamente desde script.js -->
+      </div>
     </div>
-  </div>
-
-  <!-- Inclusión del script de funcionalidad -->
-  <script src="script.js"></script>
-</body>
+    <!-- Inclusión del script de funcionalidad -->
+    <script src="script.js"></script>
+  </body>
 </html>
