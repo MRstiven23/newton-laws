@@ -40,6 +40,7 @@ function mostrarContenido(tipo) {
         <h2>Segunda Ley de Newton (Fuerrza y aceleración)</h2>
         <p>La aceleración de un objeto es proporcional a la fuerza neta que actúa sobre él e inversamente proporcional a su masa. Fórmula: F = m × a.</p>
         <img src="image/segundaLey.jpg" alt="Segunda Ley de Newton">
+        <video src="video.mp4" controls style="width: 40%; height: 250px;"> </video>
       `;
       break;
 
